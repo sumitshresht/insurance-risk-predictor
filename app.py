@@ -10,7 +10,7 @@ import time
 # 1. Page Config & CSS Styling
 # ==========================================
 st.set_page_config(
-    page_title="InsurAI | Pro Risk Engine",
+    page_title="RiskGuard AI | Pro Risk Engine",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -125,7 +125,7 @@ with st.sidebar:
 # Header Section
 col_head1, col_head2 = st.columns([3, 1])
 with col_head1:
-    st.title("🛡️ InsurAI Risk Engine")
+    st.title("🛡️ RiskGuard AI")
     st.markdown("### AI-Powered Underwriting Assistant")
 with col_head2:
     st.metric(label="Model Accuracy", value="94.2%", delta="1.2%")
